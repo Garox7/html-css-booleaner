@@ -21,7 +21,7 @@ header > img {
 }
 
 main {
-    padding: 5px
+    margin: 10px;
 }
 
 .title-section {
@@ -50,4 +50,29 @@ main {
 
 .references p {
     font-size: 0.8em;
+}
+
+article > p {
+    margin: 20px 0;
+}
+
+article > p .t-underline {
+    background-color: yellow;
+}
+
+article > ul {
+    margin: 20px 0px 20px 15px;
+}
+
+table th {
+    width: 33%;
+}
+
+.bg-blue {
+    color: white;
+    background-color: #0077b6;
+}
+
+.bg-azure {
+    background-color: #abf9f9;
 }
