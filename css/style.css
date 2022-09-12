@@ -65,6 +65,10 @@ article > ul {
     margin: 20px 0px 20px 15px;
 }
 
+table {
+    border-spacing: 0;
+}
+
 table th {
     width: 33%;
 }
