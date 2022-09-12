@@ -6,15 +6,48 @@
 
 header {
     background-image: url("../img/pattern.png");
-    background-color: rgba(0, 0, 255, 0.698);
+    background-color: #0077b6;
     background-size: 250px;
     height: 65px;
     position: relative;
+    margin-bottom: 10px;
 }
 
-header>img {
+header > img {
     width: 150px;
     position: absolute;
     left: 5px;
     bottom: 5px;
+}
+
+main {
+    padding: 5px
+}
+
+.title-section {
+    margin-bottom: 20px;
+}
+
+.title-section .title {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.title-section .author {
+    color: grey;
+    font-weight: 600;
+
+}
+
+.title-section .author > a {
+    color: #0077b6;
+}
+
+.title-section .date {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.references p {
+    font-size: 0.8em;
 }
