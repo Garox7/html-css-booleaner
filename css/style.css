@@ -9,15 +9,12 @@ header {
     background-color: #0077b6;
     background-size: 250px;
     height: 65px;
-    position: relative;
     margin-bottom: 10px;
 }
 
 header > img {
     width: 150px;
-    position: absolute;
-    left: 5px;
-    bottom: 5px;
+    margin: 20px 0 0 5px;
 }
 
 main {
@@ -75,4 +72,32 @@ table th {
 
 .bg-azure {
     background-color: #abf9f9;
+}
+
+.title-tips {
+    color: gray;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.article {
+    position: relative;
+    width: 300px;
+    float: left;
+    margin: 0px 20px 20px 0px; 
+}
+
+article::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.article > p {
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 5px;
+    top: 5px;
 }
